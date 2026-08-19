@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "imap_server": "imap.qq.com",
+  "imap_port": 993,
+  "imap_ssl": true,
+  "smtp_server": "smtp.qq.com",
+  "smtp_port": 587,
+  "smtp_tls": true,
+  "email_account": "",
+  "polling_interval": 30,
+  "use_idle": true,
+  "max_emails_per_poll": 5,
+  "max_attachment_size_mb": 50,
+  "max_attachments_per_email": 10,
+  "temp_cleanup_hours": 24,
+  "temp_dir": ""
+}

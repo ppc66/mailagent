@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "active_provider": "qwen",
+  "max_total_tokens_per_task": 8000,
+  "max_llm_calls_per_task": 10,
+  "providers": [
+    {
+      "id": "qwen",
+      "name": "Qwen 通义千问",
+      "model_name": "qwen3.7-flash",
+      "api_base": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "max_tokens": 4096,
+      "temperature": 0.7,
+      "timeout": 60
+    }
+  ],
+  "system_prompt": "你是一个安全的个人电脑助理。你只能使用提供的工具完成任务，禁止编造工具结果。"
+}

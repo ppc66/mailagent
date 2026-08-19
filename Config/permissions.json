@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "allowed_commands": ["dir", "ls", "echo", "ping", "systeminfo", "tasklist", "whoami", "date", "time"],
+  "workspace_dirs": ["%USERPROFILE%\\Desktop", "%USERPROFILE%\\Documents"],
+  "sandbox_mode": "workspace",
+  "custom_dirs": [],
+  "allow_delete": false,
+  "high_risk_actions": ["delete"],
+  "allow_send_to_non_whitelist": false,
+  "command_timeout": 30,
+  "confirm_timeout_seconds": 300,
+  "rate_limit_per_minute": 5
+}
